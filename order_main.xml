@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:text="الطلبات"
+        android:gravity="center"
+        android:textColor="@android:color/holo_purple"
+        android:background="@android:color/holo_blue_bright"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45dp"
+        android:text="انقر لفتح طلباتك:"
+        android:gravity="center"
+        android:background="@android:color/holo_red_light"
+        android:onClick="this_order"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:background="@android:color/holo_orange_light"
+        android:id="@+id/order"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/holo_purple">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="back_space"
+        android:text="back"
+        android:gravity="center"
+        android:textSize="45dp"/>
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
+
